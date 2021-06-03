@@ -11,3 +11,8 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world    
+        with:
+          firstGreeting: "Brock Samson"
+          secondGreeting: "Rusty Venture"
+          thirdGreeting: "The Might Monarch"
+          
